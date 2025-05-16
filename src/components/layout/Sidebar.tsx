@@ -73,7 +73,7 @@ const Sidebar = () => {
             />
 
             <NavItem 
-              href="/invoice" 
+              href="/invoices" 
               icon={<Receipt className="mr-3 h-5 w-5" />} 
               label="Invoices" 
               active={isGroupActive(["/invoice"])} 
